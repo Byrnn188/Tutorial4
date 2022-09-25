@@ -1,5 +1,5 @@
 DEBUG main org.testng.TestNG - suiteXmlPath: "C:\Users\asus\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml"
-DEBUG main org.testng.internal.Graph - [Graph] ADDING NODE TestCalc.TestAdd()[pri:0, instance:cn.edu.tut4.TestCalc@96def03] 914926094
+DEBUG main org.testng.internal.Graph - [Graph] ADDING NODE TestCalc.TestAdd()[pri:0, instance:cn.edu.tut4.TestCalc@20d28811] 1307394844
 DEBUG main org.testng.internal.Graph - [Graph] ================ SORTING
 DEBUG main org.testng.internal.Graph - [Graph] =============== DONE SORTING
 DEBUG main org.testng.internal.Graph - [Graph] ====== SORTED NODES
@@ -7,28 +7,3 @@ DEBUG main org.testng.internal.Graph - [Graph] ====== END SORTED NODES
 INFO main org.testng.internal.Utils - [TestNG] Running:
   C:\Users\asus\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
 
-DEBUG main org.testng.internal.Graph - [Graph] ADDING NODE TestCalc.TestAdd()[pri:0, instance:cn.edu.tut4.TestCalc@7c469c48] -1453238445
-DEBUG main org.testng.internal.Graph - [Graph] ================ SORTING
-DEBUG main org.testng.internal.Graph - [Graph] =============== DONE SORTING
-DEBUG main org.testng.internal.Graph - [Graph] ====== SORTED NODES
-DEBUG main org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-ERROR main org.testng.reporters.jq.Main - D:\159.251task\tut4project\Project\target\surefire-reports\jquery-3.6.0.min.js
-java.nio.file.FileAlreadyExistsException: D:\159.251task\tut4project\Project\target\surefire-reports\jquery-3.6.0.min.js
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
-	at java.base/java.nio.file.Files.copy(Files.java:3161)
-	at org.testng.reporters.jq.Main.generateReport(Main.java:95)
-	at org.testng.TestNG.generateReports(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1072)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
